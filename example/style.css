@@ -1,0 +1,149 @@
+/* General */
+html {
+  box-sizing: border-box;
+}
+
+* {
+
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Verdana', 'Arial', sans-serif;
+    font-size: 100%;
+    color: #1A3160;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+/* Header*/
+.header {
+    position: relative;
+    height: 100vh;
+}
+
+.header-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+.header-image {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header-name {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-job {
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.header-description {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-size: 16px;
+
+}
+
+.header-link {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1A3160;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Content */
+.content-description {
+    max-width: 640px;
+    margin: 120px auto 120px auto;
+}
+
+.content-portfolio {
+}
+
+.content-portfolio-title {
+    margin-bottom: 72px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-portfolio-images {
+    text-align: center;
+}
+
+.content-portfolio-image {
+    margin: 0 24px 48px 24px;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    padding: 28px 48px;
+    background-color: #1A3160;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.footer-name {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-description {
+    max-width: 350px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.footer-socials {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    transform: translateY(-50%);
+}
+
+.footer-social-link {
+    margin-right: 16px;
+}
+
+.footer-social-link:last-child {
+    margin-right: 0;
+}
+
+.footer-social-image {
+    width: 50px;
+    height: 50px;
+}
